@@ -1,3 +1,9 @@
+smartmontools (7.2-1vyatta1) unstable; urgency=medium
+
+  * Import Upstream version 7.2
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Fri, 29 Jan 2021 14:10:54 -0800
+
 smartmontools (7.2-1) unstable; urgency=medium
 
   * New upstream release.
