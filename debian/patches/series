@@ -6,3 +6,4 @@
 default_never-quit.patch
 manpage.diff
 service-alias.patch
+update-drivedb-for-innodisk.patch

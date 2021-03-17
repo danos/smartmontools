@@ -1,0 +1,28 @@
+Update drivedb.h for Innodisk
+
+Add Ufispace updates for Innodisk
+
+Signed-off-by: Sharmila Podury <sharmila.podury@att.com>
+
+--- a/drivedb.h
++++ b/drivedb.h
+@@ -1070,7 +1070,7 @@ const drive_settings builtin_knowndrives
+     "-v 248,raw48,Remaining_Life "
+     "-v 249,raw48,Spare_Blocks_Remaining"
+   },
+-  { "Innodisk 3IE3/3ME3/3ME4 SSDs", // tested with 2.5" SATA SSD 3ME3/S15A19, CFast 3ME3/S15A19
++  { "Innodisk 3IE3/3ME3/3IE4/3ME4 SSDs", // tested with 2.5" SATA SSD 3ME3/S15A19, CFast 3ME3/S15A19
+       // InnoDisk Corp. - mSATA 3ME3/S15A19, mSATA mini 3ME3/S15A19, M.2 (S42) 3ME3,
+       // SATA Slim 3ME3/S15A19, SATADOM-MH 3ME3/S15A19, SATADOM-ML 3ME3/S15A19,
+       // SATADOM-MV 3ME3/S15A19, SATADOM-SL 3ME3/S15A19, SATADOM-SV 3ME3/S15A19,
+@@ -1080,8 +1080,9 @@ const drive_settings builtin_knowndrives
+       // SATADOM-SH 3IE3 V2/S15C14i, SATADOM-SL 3IE3 V2/S15A19i, SATADOM-SV 3IE3 V2/S15C14i
+       // mSATA 3ME4/L16711, M.2 (S42) 3ME4/L16711, SATADOM-MH 3ME4/L16B01,
+       // SATADOM-SH 3ME4/L16B01, SATADOM-SH Type C 3ME4/L16B01, SATADOM-SH Type D 3ME4/L16B01
++      // M.2 (S42) 3IE4/L20B02i,
+     "(2.5\" SATA SSD|CFast|InnoDisk Corp\\. - mSATA|Mini PCIeDOM|mSATA( mini)?|"
+-    "M\\.2 \\(S42\\)|SATA Slim|SATADOM-[MS][HLV]( Type [CD])?) 3([IM]E3|ME4)( V2)?",
++    "M\\.2 \\(S42\\)|SATA Slim|SATADOM-[MS][HLV]( Type [CD])?) 3([I|M]E3|[I|M]E4)(V2)?",
+     "", "",
+   //"-v 1,raw48,Raw_Read_Error_Rate "
+   //"-v 2,raw48,Throughput_Performance "
