@@ -1,3 +1,9 @@
+smartmontools (7.2-1vyatta2) unstable; urgency=medium
+
+  * Update drivedb.h for Innodisk
+
+ -- Sharmila Podury <sharmila.podury@att.com>  Thu, 18 Mar 2021 09:52:25 -0700
+
 smartmontools (7.2-1vyatta1) unstable; urgency=medium
 
   * Import Upstream version 7.2
